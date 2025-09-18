@@ -1,0 +1,147 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* App Container */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navbar */
+nav {
+  background: #222;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Section Styling */
+section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #222;
+  border-bottom: 2px solid #00bcd4;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+section p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* About Section */
+#about p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* Skills Section */
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  margin-top: 15px;
+}
+
+#skills li {
+  list-style: none;
+  background: #00bcd4;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+#skills li:hover {
+  background: #008c9e;
+  transform: scale(1.05);
+}
+
+/* Projects Section */
+#projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+#projects li {
+  margin: 10px 0;
+}
+
+#projects a {
+  text-decoration: none;
+  color: #00bcd4;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+#projects a:hover {
+  color: #008c9e;
+  text-decoration: underline;
+}
+
+/* Contact Section */
+#contact p {
+  margin: 8px 0;
+}
+
+#contact a {
+  color: #00bcd4;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  background: #222;
+  color: #fff;
+}
